@@ -384,6 +384,31 @@
 ### 4. Next Concrete Task
 - Build the curriculum content ingestion pipeline in `lib/curriculum/importer/` and lesson reader route layout in `(learn)/courses/[module]/[lesson]/page.tsx`.
 
+---
+
+## Session: October 15, 2026 (Radial Sky Gradient Alignment & GitHub Repository Push)
+
+### 1. Feature / Task Completed
+- **Radial Sky Gradient Alignment (`components/auth/auth-card.tsx`)**:
+  - Matched the oversized hollow typography stroke and ambient watermark directly to `.btn-radial-sky` (`radial-gradient(135% 135% at 50% 0%, #0284c7 0%, #0369a1 42%, #075985 72%, #0c4a6e 100%)`).
+  - Added SVG gradient definition with apex `#38bdf8`, `#0284c7`, `#0369a1`, `#075985`, `#0c4a6e`, and drop shadow filter (`feDropShadow`).
+- **Full Repository Synchronization to GitHub**:
+  - Committed and pushed all code, design tokens, landing page sections, auth flows, skills, and configuration to `origin/main` (`https://github.com/WhiteGhost-0/python-lms`).
+  - Commit: `9172ac5` (`feat: implement istmX Learn landing page, auth flow, and brand design system`).
+
+### 2. Files Changed
+- [`components/auth/auth-card.tsx`](file:///workspaces/python-lms/components/auth/auth-card.tsx): Applied exact button radial sky gradient to text stroke and ambient watermark.
+- [`PROGRESS.md`](file:///workspaces/python-lms/PROGRESS.md): Logged implementation session.
+
+### 3. Tests & Checks Run
+- `npm run lint`: Passed with 0 errors and 0 warnings.
+- `npm run build`: Passed (Next.js 16.4.1 Turbopack, static page generation for all 7 routes with 0 TypeScript errors).
+- `git push origin main`: Succeeded (commit `9172ac5`).
+
+### 4. Next Concrete Task
+- Build the curriculum content ingestion pipeline in `lib/curriculum/importer/` and lesson reader route layout in `(learn)/courses/[module]/[lesson]/page.tsx`.
+
+
 
 
 
